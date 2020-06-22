@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #eaa58a;
+  border: 1px solid #eaa58a;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -21,7 +21,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #161552;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -64,23 +64,23 @@
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #161552;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #161552;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #eaa58a;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #de7349;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #eaa58a;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #eaa58a;
   }
 }
 
@@ -90,7 +90,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 21, 82, 0.1) 0%, rgba(22, 21, 82, 0.3) 75%, #161552 100%), url("../img/title.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -146,33 +146,44 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #eaa58a;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #e2845f;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #e2845f;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #de7349 !important;
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding-top: 4rem;
+  background: linear-gradient(to bottom, #161552 0%, rgba(22, 21, 82, 0.9) 75%, rgba(22, 21, 82, 0.8) 100%);
 }
 
 .about-section p {
   margin-bottom: 5rem;
 }
 
+.about-section .featured-text {
+  padding: 2rem;
+}
+
+@media (min-width: 992px) {
+  .about-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #eaa58a;
+  }
+}
+
 .projects-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 
 .projects-section .featured-text {
@@ -182,7 +193,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #eaa58a;
   }
 }
 
@@ -196,7 +207,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #eaa58a;
     border-width: .25rem;
     width: 30%;
   }
@@ -204,7 +215,7 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(22, 21, 82, 0.1) 0%, rgba(22, 21, 82, 0.5) 75%, #161552 100%), url("../img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -228,7 +239,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #eaa58a;
 }
 
 .contact-section .card h4 {
@@ -239,7 +250,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #eaa58a;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -272,24 +283,28 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #eaa58a;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #da6234;
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #161552 !important;
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #eaa58a !important;
+}
+
+.bg-peach {
+  background-color: #f2dacf !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #eaa58a !important;
 }
 
 footer {
